@@ -1,19 +1,19 @@
 {
-    "name": "jqtravel/travel-planner-module",
-    "description": "Plan your travels for JQTravel",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Jqtravel\\TravelPlannerModule\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Jim Pouwels",
-            "email": "jim.pouwels@gmail.com"
-        }
-    ],
-    "require": {
-        "obcato/component-api": "v1.0.3"
+  "name": "jqtravel/travel-planner-module",
+  "description": "Plan your travels for JQTravel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Jqtravel\\TravelPlannerModule\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Jim Pouwels",
+      "email": "jim.pouwels@gmail.com"
+    }
+  ],
+  "require": {
+    "obcato/obcato": "v0.0.6"
+  }
 }

@@ -1,25 +1,24 @@
 <?php
 
-use Obcato\ComponentApi\Module;
-use Obcato\ComponentApi\TabMenu;
+namespace Jqtravel\TravelPlannerModule;
 
-class TravelPlannerModuleVisual implements Module {
+use Obcato\Core\admin\core\model\Module;
+use Obcato\Core\admin\view\views\ModuleVisual;
+use Obcato\Core\admin\view\views\TabMenu;
 
-    public function getActionButtons(): array {
-        return array();
+class TravelPlannerModuleVisual extends ModuleVisual {
+
+    public function __construct(Module $module) {
+        parent::__construct($module);
     }
 
-    public function renderHeadIncludes(): string {
+    function loadTabMenu(TabMenu $tabMenu): int {
         return "";
     }
 
-    public function getTabMenu(): ?TabMenu {
-        return null;
-    }
+    function load(): void {}
 
-    public function getRequestHandlers(): array {
-        return array();
+    function getTemplateFilename(): string {
+        return "";
     }
-
-    public function onRequestHandled(): void {}
 }

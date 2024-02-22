@@ -1,8 +1,10 @@
 <?php
 
-use Obcato\ComponentApi\ModuleInstaller;
+namespace Jqtravel\TravelPlannerModule;
 
-class CustomModuleInstaller implements ModuleInstaller {
+use Obcato\Core\admin\modules\components\installer\ModuleInstaller;
+
+class CustomModuleInstaller extends ModuleInstaller {
 
     public function isPopup(): bool {
         return false;
