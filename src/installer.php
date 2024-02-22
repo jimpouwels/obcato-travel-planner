@@ -1,6 +1,6 @@
 <?php
 
-namespace Jqtravel\TravelPlannerModule;
+namespace Obcato\TravelPlanner;
 
 use Obcato\Core\admin\modules\components\installer\ModuleInstaller;
 
