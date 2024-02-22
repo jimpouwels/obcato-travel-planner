@@ -1,10 +1,10 @@
 {
-  "name": "jqtravel/travel-planner-module",
+  "name": "obcato/obcato-travel-planner",
   "description": "Plan your travels for JQTravel",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Jqtravel\\TravelPlannerModule\\": "src/"
+      "Obcato\\TravelPlanner\\": "src/"
     }
   },
   "authors": [

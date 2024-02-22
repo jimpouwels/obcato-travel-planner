@@ -1,6 +1,6 @@
 <?php
 
-namespace Jqtravel\TravelPlannerModule;
+namespace Obcato\TravelPlanner;
 
 use Obcato\Core\admin\core\model\Module;
 use Obcato\Core\admin\view\views\ModuleVisual;

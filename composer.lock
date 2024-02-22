@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8561fa822bbc761ea0d89d3b015173d",
+    "content-hash": "efd1b57f45e08bf5dbb4b2b25123d67e",
     "packages": [
         {
             "name": "obcato/obcato",
